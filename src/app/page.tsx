@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
@@ -220,7 +220,7 @@ export default function Home() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763401449260-ukef0wqq.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763401449743-a7prw6ii.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763401450406-bwkcmlt1.jpg"
-          ]
+          ]}
           speed={35}
           showCard={true}
         />
